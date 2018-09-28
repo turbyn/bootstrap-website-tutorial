@@ -1,0 +1,44 @@
+.gallery_product {
+  margin-top : 1rem;
+}
+
+.gallery-container {
+  background: $primary;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.gallery-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.showcase-contact{
+  padding-bottom: 0 !important;
+}
+
+#about-timeline{
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+#services{
+  padding-bottom:0 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .gallery-image {
+    width: 100%;
+  }
+}
+
+.gallery {
+  margin-top: 5rem;
+}
+
+.gallery-section {
+  padding-bottom: 0 !important;
+  padding-top: 5rem;
+}
